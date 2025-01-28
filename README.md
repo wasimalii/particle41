@@ -48,10 +48,10 @@ terraform apply
 
 Accessing the Application Load Balancer (ALB) DNS will show an Nginx default page.
 
-The following resources will be created:
-A VPC with 2 public subnets and 2 private subnets.
-An ECS cluster deployed in the private subnets of the VPC.
-An ECS Task running nginx container.
+The following resources will be created:<br>
+A VPC with 2 public subnets and 2 private subnets.<br>
+An ECS cluster deployed in the private subnets of the VPC.<br>
+An ECS Task running nginx container.<br>
 A Load Balancer (ALB) in the public subnets to route traffic to the private subnets where tasks are running.
 
 
