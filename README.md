@@ -1,7 +1,7 @@
 
 
 # particle41
-**========================================== Task 1 Minimalist Application Developmen.=====================================================** 
+**====================== Task 1 Minimalist Application Developmen.==============================** 
 Tiny App Development: 'SimpleTimeService'
 
 ###### Running the App from an Existing Image
@@ -20,7 +20,7 @@ curl http://localhost:5000
 git clone git@github.com:wasimalii/particle41.git
 
 # 2. Build the Docker Image
-cd particle41/app
+cd particle41/app<br>
 docker build -t myapp -f Dockerfile .
 
 # 3. Run the Docker Container
@@ -34,14 +34,14 @@ curl http://localhost:5000/
 
 
 
-**====================================== Task 2 Terraform and Cloud: create the infrastructure to host your container.==================================** 
+**=========== Task 2 Terraform and Cloud: create the infrastructure to host your container.===================** 
 
 # 1. Clone the repository and navigate to the Terraform directory:
-git clone git@github.com:wasimalii/particle41.git
+git clone git@github.com:wasimalii/particle41.git<br>
 cd particle41/terraform
 
 # 2. Terraform commands to plan and apply the configuration:
-terraform plan
+terraform plan<br>
 terraform apply
 
 # 3.Expected Output: 
