@@ -17,7 +17,18 @@ Note: check ports
 
 
 
+
+
+
 **=========== Task 2 Terraform and Cloud: create the infrastructure to host your container.===================** 
+
+Prerequisites<br>
+Before running the Terraform scripts, you need to set up your AWS Access and Secret Access Keys. Follow the steps below:<br>
+
+Go to the AWS Management Console.
+Click on your profile name (located at the top-right corner). ---->  Select "My Security Credentials." ----> Navigate to the Access Keys section. ---> Click on "Create New Access Key" to generate a set of keys.<br>
+
+Use these keys to authenticate Terraform with AWS by setting them in your environment variables or a credentials file<br>
 
 # 1. Clone the repository and navigate to the Terraform directory:
 git clone git@github.com:wasimalii/particle41.git<br>
