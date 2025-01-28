@@ -1,3 +1,9 @@
+# NOTE: To execute this Terraform script, you need to to export AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or any othet method to authenticate to aws.
+
+#export AWS_ACCESS_KEY_ID=ghdsbhdbsdbhbs
+#export AWS_SECRET_ACCESS_KEY=bhjdsvchsjsvdggv
+
+
 provider "aws" {
   region = var.aws_region
 }
