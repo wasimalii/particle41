@@ -1,7 +1,7 @@
 
 
 # particle41
-**====================== Task 1 Minimalist Application Developmen.==============================** 
+**==== Task 1 Minimalist Application Development.=====** 
 Tiny App Development: 'SimpleTimeService'
 
 ###### Running the App from an Existing Image
