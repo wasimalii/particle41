@@ -12,7 +12,8 @@ docker pull docker007786/particle41:myapp
 docker run -itd --name=voo -p 5000:5000 docker007786/particle41:myapp
 
 # 3. Access the App
-curl http://localhost:5000
+curl http://localhost:5000<br>
+Note: check ports 
 
 
 
