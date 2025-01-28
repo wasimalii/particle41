@@ -15,24 +15,6 @@ docker run -itd --name=voo -p 5000:5000 docker007786/particle41:myapp
 curl http://localhost:5000
 
 
-##### Running the App through repo
-# 1. Clone the Repository
-git clone git@github.com:wasimalii/particle41.git
-
-# 2. Build the Docker Image
-cd particle41/app<br>
-docker build -t myapp -f Dockerfile .
-
-# 3. Run the Docker Container
-docker run -itd --name=app -p 5000:5000 myapp
-
-# 5. View Logs
-docker logs myapp
-
-# 6. Access the App
-curl http://localhost:5000/
-
-
 
 **=========== Task 2 Terraform and Cloud: create the infrastructure to host your container.===================** 
 
