@@ -1,4 +1,4 @@
-# Node base image
+# Node base images
 FROM node:18-alpine
 
 # Copying the application code inside the container
